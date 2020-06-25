@@ -5,6 +5,11 @@ corr <- function(directory, threshold = 0) {
   # then we have appended two Zeros in the paste function, if it was 010.csv
   # then have appended  one zero in the front
   
+  
+  # Important note I have specified the relative path of the directory 
+  # kindly specify relative path according to the folder location where 
+  # the specdata folder is located
+  
   correlationVector = NULL 
   id <- 1:332
   for (i in id)

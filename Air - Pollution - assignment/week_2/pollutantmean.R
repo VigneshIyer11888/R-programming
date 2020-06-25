@@ -1,5 +1,9 @@
 pollutantmean <- function(directory, pollutant, id = 1:332) {
   
+    # Important note I have specified the relative path of the directory 
+  # kindly specify relative path according to the folder location where 
+  # the specdata folder is located
+  
   pollutantfiles <- list.files(directory, full.names = TRUE)
   pollutantdatas <- data.frame()
   for (i in id){
